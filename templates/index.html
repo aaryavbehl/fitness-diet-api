@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css">
+        <title>FitDietAPI</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Customizable Fitness and Diet Plan</h1>
+            <p style="color: white;">Enter your User ID to view your personalized fitness and diet plan:</p>
+            <div class="form-control">
+                <input type="value" id="userId" required="">
+                <label>
+                    <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+                </label>
+            </div>
+            <div class="buttons">
+            <button id="plan" style="color: black;" onclick="fetchPlan()">Get your Plan
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+
+                </div>
+            </button>
+            <button id="prog" onclick="fetchprogress()">Track Progress</button>
+            </div>
+            <div id="result"></div>
+            <div id="progressDisplay"></div>
+        </div>
+        <script src="/static/script.js"></script>
+    </body>
+</html>

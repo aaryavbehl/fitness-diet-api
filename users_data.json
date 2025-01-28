@@ -1,0 +1,29 @@
+{
+    "user1": {
+      "goal": "weight_loss",
+      "fitness_plan": {
+        "exercises": [
+          {"name": "Bench Press", "type": "Weight Training", "sets": 3, "reps": 10},
+          {"name": "Walking", "type": "Cardio", "duration": "1 hour"}
+        ]
+      },
+      "progress": [
+        {"date": "2025-01-10", "workout": "Bench Press", "sets": 3, "reps": 15},
+        {"date": "2025-01-10", "workout": "Walking", "duration": "1 hour"}
+      ]
+    },
+    "user2": {
+      "goal": "muscle_gain",
+      "fitness_plan": {
+        "exercises": [
+          {"name": "Bench Press", "type": "Weight Training", "sets": 3, "reps": 10},
+          {"name": "Walking", "type": "Cardio", "duration": "1 hour"}
+        ]
+      },
+      "progress": [
+        {"date": "2025-01-10", "workout": "Bench Press", "sets": 3, "reps": 15},
+        {"date": "2025-01-10", "workout": "Walking", "duration": "1 hour"}
+      ]
+    }
+  }
+  
