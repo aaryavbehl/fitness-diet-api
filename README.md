@@ -1,3 +1,5 @@
+![alt text](https://cloud-g9v7t4vs9-hack-club-bot.vercel.app/0demo.png)
+
 # Customizable Fitness and Diet Plan API
 
 It is a simple API that also serves as a frontend; using the frontend, users can check their fitness plan by simply typing their user ID and tracking their progress. The API can also store new updates, making it very convenient.
